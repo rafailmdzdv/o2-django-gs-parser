@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "o2-django-gs-parser"
+version = "0.1.0"
+description = "technical task for o2rus"
+authors = ["rafailka-m <rafail.medzhidov@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "o2_django_gs_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
