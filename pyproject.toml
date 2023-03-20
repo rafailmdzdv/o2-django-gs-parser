@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "technical task for o2rus"
 authors = ["rafailka-m <rafail.medzhidov@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "o2_django_gs_parser"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
