@@ -34,6 +34,15 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer'
+    ]
+}
+
 ROOT_URLCONF = 'gs_parser.urls'
 
 TEMPLATES = [
@@ -90,4 +99,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 XLS_FILENAME = 'gs_list'
 XLS_PATH = f'{BASE_DIR}/excel/{XLS_FILENAME}.xls'
 
-CLICKING_DELAY = 1
+CLICKING_DELAY = 5

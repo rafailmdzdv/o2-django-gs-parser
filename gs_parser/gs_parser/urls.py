@@ -1,6 +1,13 @@
-from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from rest_framework import routers
+
+from app import viewsets
+
+
+router = routers.DefaultRouter()
+router.register('gas_stations', viewsets.DieselFuelTypesViewset)
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', include(router.urls))
 ]
