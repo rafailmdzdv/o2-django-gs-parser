@@ -8,7 +8,7 @@ class GasStation(models.Model):
 
 class DieselFuelTypes(models.Model):
     gas_station = models.ForeignKey(GasStation, on_delete=models.CASCADE)
-    df_price = models.FloatField(blank=True)
-    df_taneko_price = models.FloatField(blank=True)
-    df_winter_price = models.FloatField(blank=True)
-    df_arctica_price = models.FloatField(blank=True)
+    df_price = models.FloatField(blank=True, null=True)
+    df_taneko_price = models.FloatField(blank=True, null=True)
+    df_winter_price = models.FloatField(blank=True, null=True)
+    df_arctica_price = models.FloatField(blank=True, null=True)
