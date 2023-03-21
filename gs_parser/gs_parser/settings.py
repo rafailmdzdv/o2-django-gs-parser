@@ -89,3 +89,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 XLS_FILENAME = 'gs_list'
 XLS_PATH = f'{BASE_DIR}/excel/{XLS_FILENAME}.xls'
+
+CLICKING_DELAY = 1
