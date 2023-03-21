@@ -16,7 +16,6 @@ files = [
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
 [[package]]
-<<<<<<< HEAD
 name = "beautifulsoup4"
 version = "4.12.0"
 description = "Screen-scraping library"
@@ -51,8 +50,6 @@ files = [
 Django = ">=3.2"
 
 [[package]]
-=======
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
 name = "django"
 version = "4.1.7"
 description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
@@ -272,7 +269,6 @@ greenlet = "2.0.1"
 pyee = "9.0.4"
 
 [[package]]
-<<<<<<< HEAD
 name = "psycopg2"
 version = "2.9.5"
 description = "psycopg2 - Python-PostgreSQL Database Adapter"
@@ -296,8 +292,6 @@ files = [
 ]
 
 [[package]]
-=======
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
 name = "pycodestyle"
 version = "2.10.0"
 description = "Python style guide checker"
@@ -310,7 +304,6 @@ files = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "pydantic"
 version = "1.10.6"
 description = "Data validation and settings management using python type hints"
@@ -364,8 +357,6 @@ dotenv = ["python-dotenv (>=0.10.4)"]
 email = ["email-validator (>=1.0.3)"]
 
 [[package]]
-=======
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
 name = "pyee"
 version = "9.0.4"
 description = "A port of node.js's EventEmitter to python."
@@ -424,8 +415,6 @@ files = [
 cli = ["click (>=5.0)"]
 
 [[package]]
-=======
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
 name = "pytz"
 version = "2022.7.1"
 description = "World timezone definitions, modern and historical"
@@ -438,7 +427,6 @@ files = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "soupsieve"
 version = "2.4"
 description = "A modern CSS selector implementation for Beautiful Soup."
@@ -451,8 +439,6 @@ files = [
 ]
 
 [[package]]
-=======
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
 name = "sqlparse"
 version = "0.4.3"
 description = "A non-validating SQL parser."
@@ -488,12 +474,10 @@ files = [
     {file = "tzdata-2022.7.tar.gz", hash = "sha256:fe5f866eddd8b96e9fcba978f8e503c909b19ea7efda11e52e39494bad3a7bfa"},
 ]
 
-<<<<<<< HEAD
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
 content-hash = "dc2f572362d52b786d6f36c497fd62f2a46a38891703ea685a32af665f19a82c"
-=======
 [[package]]
 name = "xlrd"
 version = "2.0.1"
@@ -515,4 +499,3 @@ test = ["pytest", "pytest-cov"]
 lock-version = "2.0"
 python-versions = "^3.11"
 content-hash = "2853a6377b0ae0b33c09d9919dac449bcffd55bfc536c53bc571e87647ce74f2"
->>>>>>> 46efc3e806b2ccdb519e95aa388e4813cc478865
