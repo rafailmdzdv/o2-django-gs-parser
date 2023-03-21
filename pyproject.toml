@@ -27,17 +27,17 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.flake8]
-extend-ignore = ["F401", "W292"]
-exclude = [
-    ".git",
-    ".github",
-    "__pycache__",
-    "migrations",
-    "settings.py"
-]
+extend-ignore = """F401, W292"""
+exclude = """
+    .git,
+    .github,
+    __pycache__,
+    migrations",
+    settings.py
+"""
 
 [tool.mypy]
-exclude = [
-    "settings.py",
-    "__pycache__"
-]
+exclude = """
+    settings.py,
+    __pycache__
+"""

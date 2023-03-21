@@ -399,7 +399,6 @@ files = [
 flake8 = "6.0.0"
 
 [[package]]
-<<<<<<< HEAD
 name = "python-dotenv"
 version = "1.0.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
@@ -474,10 +473,6 @@ files = [
     {file = "tzdata-2022.7.tar.gz", hash = "sha256:fe5f866eddd8b96e9fcba978f8e503c909b19ea7efda11e52e39494bad3a7bfa"},
 ]
 
-[metadata]
-lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "dc2f572362d52b786d6f36c497fd62f2a46a38891703ea685a32af665f19a82c"
 [[package]]
 name = "xlrd"
 version = "2.0.1"
@@ -498,4 +493,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "2853a6377b0ae0b33c09d9919dac449bcffd55bfc536c53bc571e87647ce74f2"
+content-hash = "5ce149b3b65607c83d87b21a26582f20ff9e603a37c408a4cf1806612e72cfe2"
