@@ -19,25 +19,14 @@ xlrd = "^2.0.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
-mypy = "^1.1.1"
 pyproject-flake8 = "^6.0.0.post1"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.flake8]
-extend-ignore = ["F401", "W292"]
-exclude = [
-    ".git",
-    ".github",
-    "__pycache__",
-    "migrations",
-    "settings.py"
-]
-
 [tool.mypy]
-exclude = [
-    "settings.py"
-    "__pycache__"
-]
+exclude = """
+    settings.py,
+    __pycache__
+"""
