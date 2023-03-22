@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import dj_database_url
@@ -12,6 +13,8 @@ SECRET_KEY = env.SECRET_KEY
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+os.environ['DJANGO_ALLOW_ASYNC_UNSAFE'] = 'true'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
