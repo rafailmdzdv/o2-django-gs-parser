@@ -1,2 +1,2 @@
 SECRET_KEY=""
-POSTGRES_DSN="postgres://rafail:mypassword@localhost:5432/gs_db"
+POSTGRE_DSN="postgres://rafail:mypassword@localhost:5432/gs_db"

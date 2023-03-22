@@ -47,6 +47,6 @@ def _get_gas_stations_xls(browser: Browser) -> None:
 
 def _download_gas_stations_xls(gs_page: Page) -> None:
     with gs_page.expect_download() as download_info:
-        gs_page.locator('.bt').click()
+        gs_page.locator('.btn').click()
     download = download_info.value
     download.save_as(settings.XLS_PATH)
