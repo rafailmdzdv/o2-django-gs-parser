@@ -13,6 +13,7 @@ def start_interacting():
         log.debug('Opened rss.tatneft.ru page.')
         _start_clicking_buttons(main_page)
         get_gas_stations_xls_and_parse(browser)
+        browser.close()
 
 
 def _open_rss_page(browser: Browser, *paths: str) -> Page:
