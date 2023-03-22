@@ -1,7 +1,6 @@
 from django.core.management.base import BaseCommand
 
 from app.services.pw import start_interacting
-from app.services.gas_stations import parse_gas_stations_xls
 from gs_parser.log import log
 
 
