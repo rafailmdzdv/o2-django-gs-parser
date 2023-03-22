@@ -1,4 +1,8 @@
 def to_float(price_str: str | None) -> float | None:
+    """
+    Переводит цену из таблицы в число с плавающей точкой.
+    В случае, если цена не указана, возвращает None
+    """
     if not price_str:
         return
     processed_price_str = ''
