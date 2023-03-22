@@ -16,6 +16,7 @@
 ##### - PostgreSQL
 ##### - Django
 ##### - DRF
+##### - Playwright
 ##### - Schedule
 ##### - Pydantic
 ##### - Flake8
