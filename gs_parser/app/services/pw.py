@@ -8,7 +8,7 @@ from gs_parser.log import log
 
 def start_interacting():
     with sync_playwright() as sp:
-        browser = sp.chromium.launch(headless=False)
+        browser = sp.chromium.launch(headless=True)
         main_page = _open_rss_page(browser)
         log.debug('Opened rss.tatneft.ru page.')
         _start_clicking_buttons(main_page)

@@ -1,0 +1,10 @@
+FROM python:3.11.3-bullseye
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install poetry
+RUN ./install.sh
+
+CMD ["sh", "start.sh"]
