@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: rafail
+      POSTGRES_PASSWORD: rafailPSQL1
+      POSTGRES_DB: gs_db
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
