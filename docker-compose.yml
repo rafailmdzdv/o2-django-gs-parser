@@ -3,9 +3,9 @@ services:
   db:
     image: postgres
     environment:
-      POSTGRES_USER: rafail
-      POSTGRES_PASSWORD: rafailPSQL1
-      POSTGRES_DB: gs_db
+      POSTGRES_USER: user_template
+      POSTGRES_PASSWORD: password_template
+      POSTGRES_DB: db_template
   app:
     build: .
     ports:
